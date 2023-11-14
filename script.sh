@@ -74,15 +74,22 @@ speed_test() {
 }
 
 speed() {
+    #list of servers
+    # https://williamyaps.github.io/wlmjavascript/servercli.html
     speed_test '' 'Speedtest.net'
-    speed_test '7582'  'Telkom JKT    ID'
-    speed_test '797'  'Biznet  ID'
-    speed_test '5935' 'My Republic  SG'
-    speed_test '4802' 'FirstMedia  ID'
-    speed_test '12807' 'CBN JKT  ID'
-    speed_test '16398' 'CN Mobile   CN'
-    speed_test '3242'  'Netherland   NL'
-    speed_test '14623' 'Japan      JP'
+    #speed_test '7582'  'Telkom JKT    ID'
+    #speed_test '797'  'Biznet  ID'
+    #speed_test '5935' 'My Republic  SG'
+    #speed_test '4802' 'FirstMedia  ID'
+    #speed_test '12807' 'CBN JKT  ID'
+    #speed_test '16398' 'CN Mobile   CN'
+    #speed_test '3242'  'Netherland   NL'
+    #speed_test '14623' 'Japan      JP'
+    speed_test '4624' 'ChinaTelecom Chengdu'
+    speed_test '2461' 'ChinaUnicom Chengdu'
+    speed_test '4575' 'ChinaMobile Chengdu'
+    speed_test '11444' 'University of Electronic Science and Technology Chengdu'
+    speed_test '20054' 'YunJinTianFu Chengdu'
 }
 
 ipv4_info() {
@@ -114,5 +121,5 @@ install_speedtest() {
 
 next
 install_speedtest && printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency"
-speed && rm -fr speedtest-cli
+speed #&& rm -fr speedtest-cli
 next
