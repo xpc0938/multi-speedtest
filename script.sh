@@ -85,11 +85,12 @@ speed() {
     #speed_test '16398' 'CN Mobile   CN'
     #speed_test '3242'  'Netherland   NL'
     #speed_test '14623' 'Japan      JP'
-    speed_test '4624' 'ChinaTelecom Chengdu'
+    speed_test '29071' 'ChinaTelecom Chengdu'
     speed_test '2461' 'ChinaUnicom Chengdu'
-    speed_test '4575' 'ChinaMobile Chengdu'
-    speed_test '11444' 'University of Electronic Science and Technology Chengdu'
-    speed_test '20054' 'YunJinTianFu Chengdu'
+    speed_test '35527' 'China Broadcasting Network Group Chengdu'
+    speed_test '3973' 'ChinaTelecom Lanzhou'
+    speed_test '16145' 'ChinaMobile Lanzhou'
+#    speed_test '20054' 'YunJinTianFu Chengdu'
 }
 
 ipv4_info() {
